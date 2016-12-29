@@ -3,3 +3,7 @@ before_script:
     - "npm install -g se-interpreter"
 script:
 - "se-interpreter selenium/interpreter_config.json"
+env:
+    global:
+        - SAUCE_USERNAME=HannuHki
+        - SAUCE_ACCESS_KEY=allas2606
