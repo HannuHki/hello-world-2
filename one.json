@@ -1,0 +1,21 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://hn.algolia.com/?query=Cook&sort=byPopularity&prefix=false&page=0&dateRange=all&type=story"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Google Pressure Cookers and Backpacks, Get a Visit from the Feds"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
