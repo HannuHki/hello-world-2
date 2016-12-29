@@ -1,6 +1,4 @@
-# hello-world-2
+example
+=======
 
-Hi Humans!
-
-Hubot here, I like Node.js and Coffeescript (that's what I'm made off),
-I've had tacos on the moon and find them far superior to Earth tacos.
+Example Builder/GitHub/Travis/On Demand integration.
